@@ -1,19 +1,8 @@
-﻿<dotnetnuke type="Package" version="5.0">
-  <packages><package name="40Fingers.AddToCalendarHandler" type="Library" version="00.00.00">
+﻿<dotnetnuke type="Package" "Module" version="00.09.00">
+  <packages><package name="40Fingers.AddToCalendarHandler" type="Library" "Module" version="00.09.00">
   <friendlyName>40Fingers AddToCalendarHandler</friendlyName>
   <description>
-	<![CDATA[
-	<b>40FINGERS DotNetNuke Module: AddToCalendarHandler</b>
-	<ul>
-		<li>Feature 1.
-		</li>
-		<li>Feature 2.
-		</li>
-		<li>
-		And much more...
-		</li>
-	</ul>
-  ]]>
+	<![CDATA[40FINGERS DotNetNuke Module: AddToCalendarHandler]]>
   </description>
   <owner>
 	<name>40Fingers</name>
