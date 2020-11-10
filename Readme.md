@@ -21,6 +21,7 @@ Currently, the following parameters are supported:
 * duration: optional: number of minutes
 
 Note: if both "end" and "duration" are missing, the event defaults to 60 minutes.
+Note 2: currently types icloud, outlook and ical result in identical ical files.
 
 This would result in the url looking something like this:
 /DesktopModules/40Fingers/AddToCalendarHandler/AddToCalendar.ashx?type=ical&subject=testsubject&description=testdescription&start=20201201T090000&duration=120&location=online
