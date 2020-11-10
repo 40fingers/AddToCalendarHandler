@@ -47,7 +47,7 @@ namespace FortyFingers.AddToCalendarHandler
                 case "google":
                     // https://www.google.com/calendar/event?action=TEMPLATE&text=Eredienst&dates=20201101T100000/20201101T111500&details=&location=wonen+via+de+livestream%2C+'
                     var url = $"{"https://"}www.google.com/calendar/event?action=TEMPLATE&text={subject}&dates={startDate:yyyyMMddTHHmmss}/{endDate:yyyyMMddTHHmmss}&details={description}&location={location}'";
-                    rsp.Redirect(req.QueryString["type"]);
+                    rsp.Redirect(url);
                     break;
                 case "icloud":
                 case "outlook":

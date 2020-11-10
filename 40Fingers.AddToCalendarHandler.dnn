@@ -2,7 +2,7 @@
   <packages><package name="40Fingers.AddToCalendarHandler" type="Library" version="00.09.00">
   <friendlyName>40Fingers AddToCalendarHandler</friendlyName>
   <description>
-	<![CDATA[40FINGERS DotNetNuke Module: AddToCalendarHandler]]>
+	<![CDATA[40FINGERS DNNCMS Handler: AddToCalendarHandler]]>
   </description>
   <owner>
 	<name>40Fingers</name>
