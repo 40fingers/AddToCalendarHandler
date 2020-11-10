@@ -79,8 +79,8 @@
         <Message Text="MSBUILD: Updating @(AssemblyInfoFile) and @(dnnFile) with new version: $(Major).$(Minor).$(Build).$(Revision)" Importance="high"></Message>
         <FileUpdate Files="@(AssemblyInfoFile)" Encoding="ASCII" Regex="AssemblyVersion\(&quot;.*&quot;\)" ReplacementText="AssemblyVersion(&quot;$(Major).$(Minor).$(Build).$(Revision)&quot;)" />
         <FileUpdate Files="@(AssemblyInfoFile)" Encoding="ASCII" Regex="AssemblyFileVersion\(&quot;.*&quot;\)" ReplacementText="AssemblyFileVersion(&quot;$(Major).$(Minor).$(Build).$(Revision)&quot;)" />
-        <FileUpdate Files="@(dnnFile)" Regex="&quot;Module&quot; version=&quot;.*&quot;" 
-                    ReplacementText="&quot;Module&quot; version=&quot;$(Major).$(Minor).$(Build)&quot;" />
+        <FileUpdate Files="@(dnnFile)" Regex="version=&quot;.*&quot;" 
+                    ReplacementText="version=&quot;$(Major).$(Minor).$(Build)&quot;" />
     </Target>
 
     <Target Name="DeployFiles">
