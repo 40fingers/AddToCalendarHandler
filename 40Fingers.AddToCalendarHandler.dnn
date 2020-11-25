@@ -1,5 +1,5 @@
-﻿<dotnetnuke type="Package" version="00.09.00">
-  <packages><package name="40Fingers.AddToCalendarHandler" type="Library" version="00.09.00">
+﻿<dotnetnuke type="Package" version="01.00.00">
+  <packages><package name="40Fingers.AddToCalendarHandler" type="Library" version="01.00.00">
   <friendlyName>40Fingers AddToCalendarHandler</friendlyName>
   <description>
 	<![CDATA[40FINGERS DNNCMS Handler: AddToCalendarHandler]]>
