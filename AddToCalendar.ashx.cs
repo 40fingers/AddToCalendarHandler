@@ -92,7 +92,7 @@ DTEND:{endDate:yyyyMMddTHHmmss}
 DTSTART:{startDate:yyyyMMddTHHmmss}
 PRIORITY:5
 SEQUENCE:0
-SUMMARY;LANGUAGE=en-us:{subject}
+SUMMARY;LANGUAGE=en-us:{description}
 TRANSP:OPAQUE
 UID:{uniqueId}
 LOCATION:{location}
